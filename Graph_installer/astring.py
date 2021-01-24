@@ -3,7 +3,7 @@ import asyncio
 import os
 import sys
 import subprocess
-from Graphinstaller import hata, bilgi, onemli, soru
+from Graph_installer import hata, bilgi, onemli, soru
 
 from telethon import TelegramClient, events, version
 from telethon.errors import SessionPasswordNeededError, PhoneCodeInvalidError, PasswordHashInvalidError, PhoneNumberInvalidError

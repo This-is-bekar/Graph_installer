@@ -1,0 +1,14 @@
+[tool]
+[tool.poetry]
+name = "GraphUserbot_installer"
+version = "1.0"
+description = "Avtomatik deploy(heroku api ilə)"
+authors = ["Yusuf Usta <yusuf@quiec.tech>"]
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "*"
+gitpython = "*"
+heroku3 = "*"
+requests = "*"
+rich = "*"
+telethon = "*"

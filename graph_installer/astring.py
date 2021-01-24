@@ -1,13 +1,9 @@
-# Coded By GitHub/Quiec TG/Fusuf #
-# Don't kang without permission #
-# @AsenaUserBot #
-
 
 import asyncio
 import os
 import sys
 import subprocess
-from asena_installer import hata, bilgi, onemli, soru
+from Graphinstaller import hata, bilgi, onemli, soru
 
 from telethon import TelegramClient, events, version
 from telethon.errors import SessionPasswordNeededError, PhoneCodeInvalidError, PasswordHashInvalidError, PhoneNumberInvalidError

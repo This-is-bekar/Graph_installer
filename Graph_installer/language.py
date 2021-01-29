@@ -28,4 +28,4 @@ def importlang ():
     return COUNTRY, LANGUAGE, TZ
 
 COUNTRY, LANGUAGE, TZ = importlang()
-LANG = loads(open(f"./Graph_installer/language/{LANGUAGE}.asenajson", "r").read())["STRINGS"]
+LANG = loads(open(f"./Graph_installer/language/{LANGUAGE}.graphjson", "r").read())["STRINGS"]
